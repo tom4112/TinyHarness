@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tinyharness"
+version = "0.1.0"
+description = "A modular middleware harness for LangChain agents. Featuring a structured planner to maintain state and focus across complex tasks—and more to come."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Thomas Kaskosz", email = "thomas.kaskosz@gmail.com" }
+]
+license = { text = "MIT" }
+keywords = ["langchain", "langgraph", "agent-harness", "planning", "middleware"]
+dependencies = [
+    "langchain>=1.0.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

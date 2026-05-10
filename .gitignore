@@ -1,0 +1,11 @@
+.env
+tinyharness/tests.ipynb
+tinyharness/utils.py
+tinyharness/workspace/
+.venv/
+*.egg-info/
+*__pycache__/
+workspace/
+build*
+.DS_store/
+archives/
