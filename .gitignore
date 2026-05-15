@@ -2,10 +2,11 @@
 tinyharness/tests.ipynb
 tinyharness/utils.py
 tinyharness/workspace/
+tinyharness/.DS_store
 .venv/
 *.egg-info/
 *__pycache__/
 workspace/
 build*
-.DS_store/
+.DS_store
 archives/
