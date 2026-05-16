@@ -1,3 +1,4 @@
-from .tiny_planner import _TinyPlanner
+from .tiny_planner import TinyPlannerMiddleware
+from .tiny_filesystem import TinyFilesystemMiddleware
 
-__all__ = ["TinyPlannerMiddleware"]
+__all__ = ["TinyPlannerMiddleware", "TinyFilesystemMiddleware"]

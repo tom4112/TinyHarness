@@ -10,3 +10,4 @@ workspace/
 build*
 .DS_store
 archives/
+.pytest_cache/
